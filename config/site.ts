@@ -9,7 +9,11 @@ export const siteConfig = {
 			href: "/",
 		},
 		{
-			label: "Blog",
+			label: "life@cedt",
+			href: "/",
+		},
+		{
+			label: "Intern",
 			href: "/blog",
 		},
 		{
@@ -23,7 +27,11 @@ export const siteConfig = {
 			href: "/",
 		},
 		{
-			label: "Blog",
+			label: "life@cedt",
+			href: "/",
+		},
+		{
+			label: "Intern",
 			href: "/blog",
 		},
 		{
