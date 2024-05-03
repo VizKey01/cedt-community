@@ -6,6 +6,7 @@ import { siteConfig } from "@/config/site";
 import { GithubIcon, Logo } from "@/components/icons";
 import { pageWording } from "@/config/wording";
 import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
+import ExploreCards from "@/components/home/explore";
 
 export default function Home() {
   return (
@@ -42,37 +43,7 @@ export default function Home() {
       </div>
 
       {/* Explore CEDT Section */}
-      <div
-        id="explore-cedt"
-        className="flex flex-col items-center justify-center gap-4 py-8 md:py-10"
-      >
-        <Card className="bg-secondary">
-          <CardHeader className="pt-6 pb-2 flex-col items-center gap-1">
-            <div className="flex flex-row items-center gap-3">
-              <Image
-                alt="Explore HeroCard Title Image"
-                src={pageWording.home.explore.heroCard.title.imagePath}
-                width={45}
-              />
-              <h4 className="font-semibold text-2xl md:text-4xl">
-                {pageWording.home.explore.heroCard.title.text}
-              </h4>
-            </div>
-            <p className="text-sm md:text-xl text-gray-500 text-center">
-              {pageWording.home.explore.heroCard.description}
-            </p>
-          </CardHeader>
-          {/* center the image */}
-          <CardBody className="overflow-hidden py-2">
-            <Image
-              alt="Card background"
-              className="object-cover rounded-xl"
-              src={pageWording.home.explore.heroCard.image}
-              width="100%"
-            />
-          </CardBody>
-        </Card>
-      </div>
+      <ExploreCards />
     </section>
   );
 }

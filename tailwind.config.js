@@ -14,7 +14,18 @@ module.exports = {
       colors: {
         primary: primary,
         secondary: colors.white,
-        secondaryCutoff: colors.black,
+        secondaryCutoff: {
+          50: "#f9f9f9",
+          100: "#f3f3f3",
+          200: "#e0e0e0",
+          300: "#cccccc",
+          400: "#a6a6a6",
+          500: "#808080",
+          600: "#666666",
+          700: "#4d4d4d",
+          800: "#333333",
+          900: "#1a1a1a",
+        },
       },
       typography: {
         // make default top and bottom margin 1
@@ -39,12 +50,12 @@ module.exports = {
         light: {
           colors: {
             primary: primary,
-            secondary: colors.black,
-            content1: primary,
+            secondary: colors.white,
+            content1: colors.white,
             content2: colors.black,
-            content3: colors.black,
-            content4: colors.black,
-            content5: colors.black,
+            // content3: colors.black,
+            // content4: colors.black,
+            // content5: colors.black,
             default: colors.black,
             foreground: colors.black,
             background: colors.white,
@@ -65,11 +76,11 @@ module.exports = {
           colors: {
             primary: primary,
             secondary: colors.white,
-            content1: primary,
+            content1: colors.black,
             content2: colors.white,
-            content3: colors.white,
-            content4: colors.white,
-            content5: colors.white,
+            // content3: colors.white,
+            // content4: colors.white,
+            // content5: colors.white,
             default: colors.white,
             foreground: colors.white,
             background: colors.black,
