@@ -5,9 +5,8 @@ import { button as buttonStyles, tv } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { GithubIcon, Logo } from "@/components/icons";
 import { pageWording } from "@/config/wording";
-import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
 import ExploreCards from "@/components/home/explore";
-
+import { SubTitlesTypewriter } from "@/components/home/hero";
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
@@ -19,7 +18,7 @@ export default function Home() {
           <h1 className="text-primary">{pageWording.home.heroTitle1}&nbsp;</h1>
           <h1 className="text-inherit">{pageWording.home.heroTitle2}&nbsp;</h1>
         </span>
-        <h3 className="text-inherit">{pageWording.home.subTitle}</h3>
+        <SubTitlesTypewriter />
       </div>
 
       <div className="flex gap-3 hover:scale-110 transform transition-transform duration-300 ease-in-out">
