@@ -17,9 +17,11 @@ export default function Home() {
           <h1 className="text-primary">
             {pageWording.homepage.heroTitle1}&nbsp;
           </h1>
-          <h1>{pageWording.homepage.heroTitle2}&nbsp;</h1>
+          <h1 className="text-inherit">
+            {pageWording.homepage.heroTitle2}&nbsp;
+          </h1>
         </span>
-        <h3>{pageWording.homepage.subTitle}</h3>
+        <h3 className="text-inherit">{pageWording.homepage.subTitle}</h3>
       </div>
 
       <div className="flex gap-3">
