@@ -1,10 +1,11 @@
 import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
 import { Code } from "@nextui-org/code";
-import { button as buttonStyles } from "@nextui-org/theme";
+import { button as buttonStyles, tv } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { GithubIcon, Logo } from "@/components/icons";
 import { pageWording } from "@/config/wording";
+import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
 
 export default function Home() {
   return (
@@ -14,14 +15,10 @@ export default function Home() {
           <Logo size={125} />
         </div>
         <span className="flex gap-0 justify-center">
-          <h1 className="text-primary">
-            {pageWording.homepage.heroTitle1}&nbsp;
-          </h1>
-          <h1 className="text-inherit">
-            {pageWording.homepage.heroTitle2}&nbsp;
-          </h1>
+          <h1 className="text-primary">{pageWording.home.heroTitle1}&nbsp;</h1>
+          <h1 className="text-inherit">{pageWording.home.heroTitle2}&nbsp;</h1>
         </span>
-        <h3 className="text-inherit">{pageWording.homepage.subTitle}</h3>
+        <h3 className="text-inherit">{pageWording.home.subTitle}</h3>
       </div>
 
       <div className="flex gap-3">
@@ -42,6 +39,39 @@ export default function Home() {
             <Code color="primary">Computer Major</Code>
           </span>
         </Snippet>
+      </div>
+
+      {/* Explore CEDT Section */}
+      <div
+        id="explore-cedt"
+        className="flex flex-col items-center justify-center gap-4 py-8 md:py-10"
+      >
+        <Card className="bg-secondary">
+          <CardHeader className="pt-6 pb-2 flex-col items-center gap-1">
+            <div className="flex flex-row items-center gap-3">
+              <Image
+                alt="Explore HeroCard Title Image"
+                src={pageWording.home.explore.heroCard.title.imagePath}
+                width={45}
+              />
+              <h4 className="font-semibold text-2xl md:text-4xl">
+                {pageWording.home.explore.heroCard.title.text}
+              </h4>
+            </div>
+            <p className="text-sm md:text-xl text-gray-500 text-center">
+              {pageWording.home.explore.heroCard.description}
+            </p>
+          </CardHeader>
+          {/* center the image */}
+          <CardBody className="overflow-hidden py-2">
+            <Image
+              alt="Card background"
+              className="object-cover rounded-xl"
+              src={pageWording.home.explore.heroCard.image}
+              width="100%"
+            />
+          </CardBody>
+        </Card>
       </div>
     </section>
   );
