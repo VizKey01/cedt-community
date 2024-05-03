@@ -32,7 +32,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="mt-8 m-0">
+      <div className="mt-8 m-0 text-sm md:text-base">
         <Snippet hideSymbol hideCopyButton variant="bordered" className="p-0">
           <span className="p-0">
             Welcome to one of the best{" "}
