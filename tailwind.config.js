@@ -12,7 +12,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#FA8946",
+        primary: primary,
         secondary: colors.white,
         darksecondary: colors.black,
       },
@@ -21,8 +21,8 @@ module.exports = {
         DEFAULT: {
           css: {
             "*": {
-              marginTop: "0.5rem",
-              marginBottom: "0.5rem",
+              marginTop: "0",
+              marginBottom: "0",
             },
           },
         },
