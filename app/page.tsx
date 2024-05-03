@@ -34,9 +34,10 @@ export default function Home() {
       </div>
 
       <div className="mt-8 m-0">
-        <Snippet hideSymbol hideCopyButton variant="shadow" className="p-0">
+        <Snippet hideSymbol hideCopyButton variant="bordered" className="p-0">
           <span className="p-0">
-            Get started by editing <Code color="primary">app/page.tsx</Code>
+            Welcome to one of the best{" "}
+            <Code color="primary">Computer Major</Code>
           </span>
         </Snippet>
       </div>
