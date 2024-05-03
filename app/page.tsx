@@ -22,7 +22,7 @@ export default function Home() {
         <h3 className="text-inherit">{pageWording.home.subTitle}</h3>
       </div>
 
-      <div className="flex gap-3">
+      <div className="flex gap-3 hover:scale-110 transform transition-transform duration-300 ease-in-out">
         <Link
           isExternal
           className={buttonStyles({ variant: "bordered", radius: "full" })}

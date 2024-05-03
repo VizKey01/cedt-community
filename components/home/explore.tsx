@@ -13,7 +13,10 @@ export default function ExploreCards() {
       id="explore-cedt"
       className="flex flex-col items-center justify-center gap-4 py-8 md:py-10"
     >
-      <Card className="text-inherit">
+      <Card
+        className="text-inherit cursor-pointer scale-100 hover:scale-105 transform transition-transform duration-300 ease-in-out"
+        isHoverable={true}
+      >
         <CardHeader className="pt-6 pb-2 flex-col items-center gap-1">
           <div className="flex flex-row items-center gap-3">
             <Skeleton
@@ -29,11 +32,11 @@ export default function ExploreCards() {
                 }}
               />
             </Skeleton>
-            <h4 className="font-semibold text-2xl md:text-4xl text-inherit">
+            <h4 className="text-inherit font-semibold text-2xl md:text-4xl">
               {pageWording.home.explore.heroCard.title.text}
             </h4>
           </div>
-          <p className="text-sm md:text-xl text-gray-500 text-center text-inherit">
+          <p className="text-sm md:text-xl text-center">
             {pageWording.home.explore.heroCard.description}
           </p>
         </CardHeader>
