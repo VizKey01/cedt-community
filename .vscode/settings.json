@@ -1,3 +1,5 @@
 {
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  // Necessary for Tailwind IntelliSense on Other than className prop, can remove if you want to suffer
+  "tailwindCSS.classAttributes": ["className.*"],
 }

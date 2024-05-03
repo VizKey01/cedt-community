@@ -28,7 +28,7 @@ export const pageWording = {
                     imagePath: "/social/instagram.png",
                     text: "Instagram",
                 },
-                description: "life and events",
+                description: "life and story sharing",
                 image: "/home/exploreSecondaryCard2Image.png",
             },
         }
