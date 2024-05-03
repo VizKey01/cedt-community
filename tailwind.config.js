@@ -14,7 +14,7 @@ module.exports = {
       colors: {
         primary: primary,
         secondary: colors.white,
-        darksecondary: colors.black,
+        secondaryCutoff: colors.black,
       },
       typography: {
         // make default top and bottom margin 1
