@@ -10,11 +10,11 @@ export const siteConfig = {
 		},
 		{
 			label: "life@cedt",
-			href: "/",
+			href: "/life@cedt",
 		},
 		{
 			label: "Intern",
-			href: "/blog",
+			href: "/internship",
 		},
 		{
 			label: "About",
@@ -28,11 +28,11 @@ export const siteConfig = {
 		},
 		{
 			label: "life@cedt",
-			href: "/",
+			href: "/life@cedt",
 		},
 		{
 			label: "Intern",
-			href: "/blog",
+			href: "/internship",
 		},
 		{
 			label: "About",
