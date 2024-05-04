@@ -19,6 +19,7 @@ RUN pnpm run build
 
 # Stage 2: Serve the application
 FROM node:20-alpine as runner
+LABEL org.opencontainers.image.source="https://github.com/CEDT-Chula/cedt-community"
 
 # Set the working directory
 WORKDIR /app
