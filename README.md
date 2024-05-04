@@ -80,6 +80,13 @@ Licensed under the [MIT license](https://github.com/nextui-org/next-app-template
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://api-development.co"><img src="https://avatars.githubusercontent.com/u/48971612?v=4?s=100" width="100px;" alt="Pinsita(Kunsue)"/><br /><sub><b>Pinsita(Kunsue)</b></sub></a><br /><a href="#design-Gunsua" title="Design">🎨</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
