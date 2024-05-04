@@ -1,4 +1,7 @@
 {
   "projectName": "cedt-community",
-  "projectOwner": "CEDT-Chula"
+  "projectOwner": "CEDT-Chula",
+  "files": [
+    "README.md"
+  ]
 }
