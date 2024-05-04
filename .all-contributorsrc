@@ -1,4 +1,21 @@
 {
   "projectName": "cedt-community",
-  "projectOwner": "CEDT-Chula"
+  "projectOwner": "CEDT-Chula",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "Gunsua",
+      "name": "Pinsita(Kunsue)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48971612?v=4",
+      "profile": "http://api-development.co",
+      "contributions": [
+        "design"
+      ]
+    }
+  ]
 }
