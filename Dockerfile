@@ -9,7 +9,7 @@ COPY package*.json ./
 
 # Install dependencies
 RUN npm install -g pnpm
-RUN pnpm install --production
+RUN pnpm install
 
 # Copy the rest of your application code
 COPY . .
