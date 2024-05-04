@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "3100:3000"
+# Not Yet Used
+  #   depends_on:
+  #     - db
+  # db:
+  #   image: postgres
+  #   volumes:
+  #     - db-data:/var/lib/postgresql/data
