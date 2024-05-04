@@ -72,6 +72,9 @@ The website uses the NextUI design system, which is a set of components and util
 - [Docker](https://www.docker.com/)
 - [GitHub Actions](https://github.com/features/actions)
 
+## License
+Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -82,6 +85,3 @@ The website uses the NextUI design system, which is a set of components and util
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-## License
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
