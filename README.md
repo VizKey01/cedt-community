@@ -84,6 +84,7 @@ Licensed under the [MIT license](https://github.com/nextui-org/next-app-template
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://api-development.co"><img src="https://avatars.githubusercontent.com/u/48971612?v=4?s=100" width="100px;" alt="Pinsita(Kunsue)"/><br /><sub><b>Pinsita(Kunsue)</b></sub></a><br /><a href="#design-Gunsua" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Myself"><img src="https://avatars.githubusercontent.com/u/64152274?v=4?s=100" width="100px;" alt="myself"/><br /><sub><b>myself</b></sub></a><br /><a href="#code-myself" title="Code">💻</a> <a href="#maintenance-myself" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>
