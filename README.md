@@ -44,7 +44,7 @@ The website uses the NextUI design system, which is a set of components and util
 
 ## Resource & Technologies Used
 ### Design
-- [Our Figma Design](https://www.figma.com/file/sWz4sWAIyFydHSnXQ02Ebp/cedt.community?type=design&node-id=0%3A1&mode=design&t=WBxCIIDkfzbPfiN1-1)
+- [Our Figma Design by @Gunsua](https://www.figma.com/file/sWz4sWAIyFydHSnXQ02Ebp/cedt.community?type=design&node-id=0%3A1&mode=design&t=WBxCIIDkfzbPfiN1-1)
 - (If you want to contribute to the design please contact the @HRNPH for design file access)
 ### Development
 - [Next.js 14](https://nextjs.org/docs/getting-started)
