@@ -17,6 +17,10 @@ export const siteConfig = {
 			href: "/internship",
 		},
 		{
+			label: "App",
+			href: "/appstore",
+		},
+		{
 			label: "About",
 			href: "/about",
 		}
@@ -33,6 +37,10 @@ export const siteConfig = {
 		{
 			label: "Intern",
 			href: "/internship",
+		},
+		{
+			label: "App",
+			href: "/appstore",
 		},
 		{
 			label: "About",
