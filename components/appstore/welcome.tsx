@@ -1,10 +1,20 @@
+"use client";
+import { useRouter } from "next/navigation";
 import { pageWording } from "@/config/wording";
 import { Logo } from "../icons";
 import { Button } from "@nextui-org/button";
 
 function AddingButtons() {
+    const router = useRouter();
+
     return (
-        <Button color="primary" variant="shadow" size="lg" radius="md">
+        <Button 
+            color="primary" 
+            variant="shadow" 
+            size="lg" 
+            radius="md"
+            onClick={() => router.push("/app-add")}
+        >
             <p className="text-white">Add Your App</p>
         </Button>  
     )
