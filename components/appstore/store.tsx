@@ -25,6 +25,13 @@ const apps = [
     action: 'Try',
     image: 'logo.png',
   },
+  {
+    icon: 'https://avatars.githubusercontent.com/u/86160567?s=200&v=4',
+    name: 'Rest Go',
+    description: 'Hotel Booking, SE',
+    action: 'Try',
+    image: 'logo.png',
+  },
 ];
 
 function AddingButtons() {
@@ -53,7 +60,8 @@ function LogoAndWelcomeMessage() {
 
 function Appstore () {
   return (
-    <div className="flex flex-wrap items-center justify-center gap-4 py-8 md:py-10 mt-10">
+    <div className="gap-4 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 py-8 md:py-10 mt-10">
+    {/* <div className="flex md:flex-row flex-wrap items-center justify-center gap-4 py-8 md:py-10 mt-10"> */}
       {apps.map((app) => (
         <AppCard 
           key={app.name}
