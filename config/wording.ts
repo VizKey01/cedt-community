@@ -39,6 +39,10 @@ export const pageWording = {
             },
         }
 
-
+    },
+    appstore: {
+        heroTitle1: "CEDT",
+        heroTitle2: "Appstore",
+        subTitles: "\"Ready to play, try, and discover? Welcome to the CEDT App Store, where our community's best work comes to life. Explore and see what inspires you!\"",
     }
 }
