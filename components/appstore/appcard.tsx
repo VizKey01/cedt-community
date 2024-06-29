@@ -6,7 +6,7 @@ export const AppCard = ({ icon, name, description, action, image, onClick}) => {
     
     return (
         // <Card className="w-full md:w-[40%] lg:w-[30%] p-4" >
-        <Card className="w-full p-4" >
+        <Card className="w-full p-1 md:p-4" >
             <CardHeader className="justify-between">
                 <div className="flex gap-4 ">
                     <Image alt={name}
